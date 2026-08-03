@@ -7,23 +7,23 @@ import { GlassCard } from './Glass'
 
 const projects = [
   {
-    title: 'TaskFlow Dashboard',
+    title: 'Clean Cutz',
     description:
-      'A sleek task management dashboard with drag-and-drop boards, data visualization charts, and real-time filtering. Built with a glassmorphism UI and responsive design.',
+      'A sleek video editing tool with start and end points to trim and save videos  in real time. Built with a glassmorphism UI and responsive design.',
     image: '/project-taskboard.png',
-    tags: ['React', 'JavaScript', 'Tailwind CSS', 'Chart.js'],
-    github: '#',
-    live: '#',
+    tags: ['React', 'JavaScript', 'Tailwind CSS'],
+    github: 'https://github.com/Mrjayj123/CleanCutz',
+    live: 'https://clean-cutz.vercel.app/',
     featured: true,
   },
   {
-    title: 'ShopVibe E-Commerce',
+    title: 'M&C Loan App',
     description:
-      'A modern e-commerce storefront with product catalog, cart functionality, and animated product cards. Features clean typography and gradient CTAs.',
+      'A modern fintech platform that mimicks a loan app. You can track athe loans disbursed and have rcords. Features clean typography and gradient CTAs.',
     image: '/project-ecommerce.png',
     tags: ['React', 'CSS Modules', 'REST API', 'Framer Motion'],
-    github: '#',
-    live: '#',
+    github: 'https://github.com/Mrjayj123/mnc',
+    live: 'https://loan-tracker-kappa-one.vercel.app/',
     featured: true,
   },
   {

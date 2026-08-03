@@ -8,7 +8,7 @@ import { GlassCard } from './Glass'
 const socialLinks = [
   {
     name: 'GitHub',
-    href: '#',
+    href: 'https://github.com/Mrjayj123/MyPortfolio',
     iconId: 'github-icon',
     color: 'hover:text-white',
   },
@@ -36,8 +36,8 @@ const contactInfo = [
   {
     icon: FaEnvelope,
     label: 'Email',
-    value: 'jayjoel@example.com',
-    href: 'mailto:jayjoel@example.com',
+    value: 'ongangojoel@gmail.com',
+    href: 'mailto:ongangojoel@gmail.com',
   },
   {
     icon: FaMapMarkerAlt,

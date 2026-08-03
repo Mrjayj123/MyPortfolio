@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { FaArrowUp, FaHeart } from 'react-icons/fa'
 
 const socialLinks = [
-  { name: 'GitHub', iconId: 'github-icon', href: '#' },
+  { name: 'GitHub', iconId: 'github-icon', href: 'https://github.com/Mrjayj123' },
   { name: 'X', iconId: 'x-icon', href: '#' },
   { name: 'Bluesky', iconId: 'bluesky-icon', href: '#' },
   { name: 'Discord', iconId: 'discord-icon', href: '#' },
