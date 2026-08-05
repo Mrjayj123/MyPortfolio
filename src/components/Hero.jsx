@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { GlassCard } from './Glass'
 
-const roles = ['Frontend Developer', 'React Enthusiast', 'UI/UX Craftsman', 'Web Builder']
+const roles = ['React Enthusiast', 'Full-Stack Engineer', 'Backend Developer']
 
 function TypingEffect() {
   const [roleIndex, setRoleIndex] = useState(0)
@@ -123,13 +123,13 @@ export default function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500" />
             </span>
-            Available for Select Projects
+            Available for  Projects
           </motion.div>
 
           {/* Headline */}
           <motion.h1 variants={itemVariants} className="mt-6 text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight leading-[1.1]">
             <span className="text-white">Hi, I'm </span>
-            <span className="gradient-text">Jay Joel</span>
+            <span className="gradient-text">Joel Ong'ango</span>
             <br className="hidden sm:block" />
             <span className="text-white text-3xl sm:text-4xl md:text-5xl font-bold mt-2 block">
               <TypingEffect />
@@ -138,7 +138,7 @@ export default function Hero() {
 
           {/* Bio */}
           <motion.p variants={itemVariants} className="mt-6 max-w-2xl mx-auto text-base sm:text-xl text-slate-400 font-light leading-relaxed">
-            I craft clean, responsive, and performance-driven web interfaces using React and modern JavaScript. Turning ideas into sleek digital experiences.
+            I build fullstack applications using clean, responsive, and performance-driven web interfaces using React and modern JavaScript. Python3, SQLAlchemy and Flask runs the ackend making it fully responsive turning ideas into sleek digital experiences.
           </motion.p>
 
           {/* CTAs */}

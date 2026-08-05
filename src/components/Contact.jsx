@@ -19,16 +19,16 @@ const socialLinks = [
     color: 'hover:text-white',
   },
   {
-    name: 'Bluesky',
-    href: '#',
-    iconId: 'bluesky-icon',
+    name: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/joel-oduor-592399248/',
+    iconId: 'linkedin-icon',
     color: 'hover:text-cyan-400',
   },
   {
-    name: 'Discord',
-    href: '#',
-    iconId: 'discord-icon',
-    color: 'hover:text-indigo-400',
+    name: 'WhatsApp',
+    href: 'https://wa.me/254112200125',
+    iconId: 'whatsapp-icon',
+    color: 'hover:text-green-400',
   },
 ]
 

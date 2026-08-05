@@ -6,7 +6,7 @@ import { GlassCard } from './Glass'
 
 const stats = [
   { value: '10+', label: 'Technologies' },
-  { value: '5+', label: 'Projects Built' },
+  { value: '3+', label: 'Projects Built' },
   { value: '2+', label: 'Years Learning' },
   { value: '100%', label: 'Passion Driven' },
 ]
@@ -26,16 +26,12 @@ export default function About() {
           <AnimatedSection variant="fade-right" delay={0.1}>
             <div className="relative mx-auto md:mx-0 max-w-sm">
               <div className="relative aspect-square rounded-2xl overflow-hidden border border-white/10">
-                {/* Gradient placeholder for profile image */}
-                <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/20 via-purple-500/20 to-teal-500/20" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-28 h-28 mx-auto rounded-full bg-gradient-to-br from-cyan-400 to-purple-500 flex items-center justify-center mb-4">
-                      <span className="text-4xl font-bold text-white">JJ</span>
-                    </div>
-                    <p className="text-sm text-slate-500">Your photo here</p>
-                  </div>
-                </div>
+                {/* Profile image */}
+                <img
+                  src="/profile.jpg"
+                  alt="Jay Joel"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
                 <div className="absolute inset-0 grid-bg opacity-40" />
               </div>
               {/* Decorative corner accents */}
@@ -48,15 +44,15 @@ export default function About() {
           <AnimatedSection variant="fade-left" delay={0.2}>
             <div className="space-y-5">
               <p className="text-slate-300 text-base sm:text-lg leading-relaxed">
-                Hey there! I'm <span className="text-cyan-400 font-semibold">Jay Joel</span>, 
-                a passionate front-end developer who loves turning creative ideas into interactive, 
+Hey there! I'm <span className="text-cyan-400 font-semibold">Joel Ong'ango</span>, 
+                a passionate full-stack developer who loves turning creative ideas into interactive, 
                 pixel-perfect web experiences.
               </p>
               <p className="text-slate-400 text-base sm:text-lg leading-relaxed">
-                I specialize in building modern web applications with <span className="text-white font-medium">React</span>, 
-                <span className="text-white font-medium"> JavaScript</span>, and 
-                <span className="text-white font-medium"> Tailwind CSS</span>. I'm deeply interested 
-                in clean UI design, smooth animations, and creating interfaces that feel alive.
+I specialize in building modern applications with <span className="text-white font-medium">React</span>, 
+                <span className="text-white font-medium"> Node.js</span>, and 
+                <span className="text-white font-medium"> Tailwind CSS</span>. I also structure backend systems and databases using <span className="text-white font-medium">Python3</span> ,<span className="text-white font-medium">SQLAlchemy</span>  and <span className="text-white font-medium">Flask</span>. I'm deeply interested 
+                in clean UI design, robust back-end architecture, and creating applications that feel alive.
               </p>
               <p className="text-slate-400 text-base sm:text-lg leading-relaxed">
                 When I'm not coding, you'll find me exploring new technologies, 
@@ -67,7 +63,7 @@ export default function About() {
 
               {/* Quick highlights */}
               <div className="flex flex-wrap gap-2 pt-2">
-                {['React', 'JavaScript', 'Tailwind CSS', 'Responsive Design', 'Git'].map((tag) => (
+{['React', 'JavaScript', 'Node.js', 'Tailwind CSS', 'Responsive Design', 'Python3', 'Git', 'SQLAlchemy','Flask'].map((tag) => (
                   <span
                     key={tag}
                     className="px-3 py-1 text-xs font-medium text-cyan-400 bg-cyan-400/10 border border-cyan-400/20 rounded-full"

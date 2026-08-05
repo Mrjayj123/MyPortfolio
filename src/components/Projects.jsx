@@ -26,16 +26,6 @@ const projects = [
     live: 'https://loan-tracker-kappa-one.vercel.app/',
     featured: true,
   },
-  {
-    title: 'WeatherLens App',
-    description:
-      'A beautiful weather application with 7-day forecasts, location search, and animated weather icons. Uses glassmorphism cards and dynamic sky gradients.',
-    image: '/project-weather.png',
-    tags: ['React', 'OpenWeather API', 'Tailwind CSS', 'Geolocation'],
-    github: '#',
-    live: '#',
-    featured: false,
-  },
 ]
 
 function ProjectCard({ project, index }) {

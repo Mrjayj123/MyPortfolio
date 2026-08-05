@@ -67,10 +67,10 @@ export default function Navbar() {
             className="text-xl font-bold tracking-tight group"
           >
             <span className="text-white group-hover:text-cyan-400 transition-colors duration-300">
-              Jay
+              Joel
             </span>
-            <span className="gradient-text ml-0.5">Joel</span>
-            <span className="text-cyan-400 animate-pulse">_</span>
+            <span className="gradient-text ml-0.5"> Oduor</span>
+            <span className="text-cyan-400 animate-pulse"></span>
           </a>
 
           {/* Desktop Links */}

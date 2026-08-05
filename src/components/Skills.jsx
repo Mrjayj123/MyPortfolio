@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import {
-  FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaFigma, FaNpm,
+  FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaFigma, FaNpm, 
 } from 'react-icons/fa'
 import {
   SiJavascript, SiTailwindcss, SiVite, SiVercel, SiTypescript, SiFramer,
@@ -23,6 +23,17 @@ const skillCategories = [
       { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06B6D4' },
     ],
   },
+
+ {
+    title: 'Backend',
+    skills: [
+      { name: 'Python3', icon: FaFigma, color: '#F24E1E' },
+      { name: 'SQLAlchemy', icon: FaFigma, color: '#F24E1E' },
+      { name: 'Flask', icon: FaFigma, color: '#F24E1E' },
+    ],
+  },
+
+
   {
     title: 'Tools & Platforms',
     skills: [
