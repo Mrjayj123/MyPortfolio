@@ -8,23 +8,23 @@ import { GlassCard } from './Glass'
 const testimonials = [
   {
     quote:
-      "Jay Joel's attention to detail is exceptional. He delivered a pixel-perfect frontend that exceeded our expectations. The animations and responsiveness were top-notch.",
-    name: 'Alex Carter',
+      "Joel's attention to detail is exceptional. He delivered a perfectly working backend that exceeded our expectations. The animations and responsiveness were top-notch.",
+    name: 'Jael Andrea',
     role: 'Project Manager',
     initials: 'AC',
     color: 'from-cyan-400 to-teal-400',
   },
   {
     quote:
-      "Working with Jay was a fantastic experience. He has a great eye for design and really understands how to create interfaces that users love interacting with.",
-    name: 'Sarah Williams',
+      "Working with Joel was a fantastic experience. He has a great eye for design and really understands how to create interfaces that users love interacting with.",
+    name: 'Mark Paul',
     role: 'UX Designer',
     initials: 'SW',
     color: 'from-purple-400 to-pink-400',
   },
   {
     quote:
-      "Jay consistently writes clean, well-structured React code. His components are reusable and his CSS is immaculate. A true craftsman of the frontend.",
+      "Jay consistently writes clean, well-structured React and Python code.",
     name: 'Marcus Chen',
     role: 'Senior Developer',
     initials: 'MC',

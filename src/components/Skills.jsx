@@ -5,6 +5,7 @@ import {
 } from 'react-icons/fa'
 import {
   SiJavascript, SiTailwindcss, SiVite, SiVercel, SiTypescript, SiFramer,
+  SiPython, SiSqlalchemy, SiFlask,
 } from 'react-icons/si'
 import { VscCode } from 'react-icons/vsc'
 import AnimatedSection from './AnimatedSection'
@@ -27,9 +28,9 @@ const skillCategories = [
  {
     title: 'Backend',
     skills: [
-      { name: 'Python3', icon: FaFigma, color: '#F24E1E' },
-      { name: 'SQLAlchemy', icon: FaFigma, color: '#F24E1E' },
-      { name: 'Flask', icon: FaFigma, color: '#F24E1E' },
+      { name: 'Python3', icon: SiPython, color: '#3776AB' },
+      { name: 'SQLAlchemy', icon: SiSqlalchemy, color: '#D71F00' },
+      { name: 'Flask', icon: SiFlask, color: '#ffffff' },
     ],
   },
 

@@ -6,23 +6,23 @@ import { GlassCard } from './Glass'
 
 const experiences = [
   {
-    date: '2025 — Present',
-    title: 'Frontend Developer',
-    company: 'Freelance / Personal Projects',
+    date: 'Feb 2026 — Present',
+    title: 'Backend Developer',
+    company: 'Tabisun Suppliers',
     description:
-      'Building modern web applications with React, Tailwind CSS, and Framer Motion. Focusing on responsive design, clean architecture, and interactive user experiences.',
-    tags: ['React', 'Tailwind CSS', 'Framer Motion'],
+      'I aid in creating backend solutions for this company that deals in the fiscal sector. I am the lead behind their app, MnC Solutions, which assists in tracking loans issued to customers..',
+    tags: ['Python3', 'React', 'SQLAlchemy'],
   },
   {
-    date: '2024 — 2025',
-    title: 'Self-Taught Developer',
-    company: 'Learning & Building',
+    date: 'Aug 2025 — Feb 2026',
+    title: 'Customer Service Executive',
+    company: 'Call Center International',
     description:
-      'Intensive self-study in frontend development. Completed multiple courses, built portfolio projects, and contributed to open source. Mastered JavaScript fundamentals and React ecosystem.',
-    tags: ['JavaScript', 'HTML/CSS', 'Git'],
+      'Assist customers from Metro by T-Mobile with plan changes, making online purchases and troubleshooting any issues that they may encounter',
+    tags: ['Optimus', 'SaaS', 'MetroAssist'],
   },
   {
-    date: '2023 — 2024',
+    date: 'May 2024 — May 2025',
     title: 'Exploring Tech',
     company: 'Early Foundations',
     description:
