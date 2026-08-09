@@ -7,8 +7,8 @@
   --glass-border-2: rgba(255, 255, 255, 0.12);
   --glass-blur-1: 12px;
   --glass-blur-2: 16px;
-  --color-primary: #22d3ee;
-  --color-secondary: #a855f7;
+--color-primary: #CDE77F;
+  --color-secondary: #6B9E3F;
   --color-bg: #0b0f19;
   --color-surface: #111827;
 }
@@ -43,16 +43,16 @@
 
 /* Glow effects */
 .glow-cyan {
-  box-shadow: 0 0 30px rgba(34, 211, 238, 0.15), 0 0 60px rgba(34, 211, 238, 0.05);
+  box-shadow: 0 0 30px rgba(205, 231, 127, 0.15), 0 0 60px rgba(205, 231, 127, 0.05);
 }
 
 .glow-purple {
-  box-shadow: 0 0 30px rgba(168, 85, 247, 0.15), 0 0 60px rgba(168, 85, 247, 0.05);
+  box-shadow: 0 0 30px rgba(107, 158, 63, 0.15), 0 0 60px rgba(107, 158, 63, 0.05);
 }
 
 /* Gradient text helper */
 .gradient-text {
-  background: linear-gradient(135deg, #22d3ee, #2dd4bf, #a855f7);
+  background: linear-gradient(135deg, #CDE77F, #B7DC6E, #6B9E3F);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -72,8 +72,8 @@
 }
 .card-hover:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(34, 211, 238, 0.08);
-  border-color: rgba(34, 211, 238, 0.2);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(205, 231, 127, 0.08);
+  border-color: rgba(205, 231, 127, 0.2);
 }
 
 /* Timeline line animation */

@@ -117,15 +117,7 @@ export default function Hero() {
         className="relative z-10 max-w-4xl text-center mx-auto space-y-6 sm:space-y-8"
       >
         <GlassCard className="glass-shadow p-7 sm:p-10">
-          {/* Accent Tag */}
-          <motion.div variants={itemVariants} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 backdrop-blur-md text-xs sm:text-sm text-cyan-400 font-medium tracking-wide shadow-inner">
-            <span className="flex h-2 w-2 relative">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75" />
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500" />
-            </span>
-            Available for  Projects
-          </motion.div>
-
+          
           {/* Headline */}
           <motion.h1 variants={itemVariants} className="mt-6 text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight leading-[1.1]">
             <span className="text-white">Hi, I'm </span>
