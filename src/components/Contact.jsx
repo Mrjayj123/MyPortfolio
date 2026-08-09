@@ -14,7 +14,7 @@ const socialLinks = [
   },
   {
     name: 'X (Twitter)',
-    href: '#',
+    href: 'https://x.com/TabisunDesigns',
     iconId: 'x-icon',
     color: 'hover:text-white',
   },

@@ -174,7 +174,7 @@ export default function Navbar() {
                   onClick={(e) => handleNavClick(e, '#contact')}
                   className="mt-4 px-5 py-3 text-center text-sm font-semibold bg-gradient-to-r from-cyan-500 to-purple-600 text-white rounded-xl shadow-lg shadow-cyan-500/20"
                 >
-                  Hire Me
+                  Contact me
                 </a>
               </div>
             </motion.div>

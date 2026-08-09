@@ -11,23 +11,23 @@ const testimonials = [
       "Joel's attention to detail is exceptional. He delivered a perfectly working backend that exceeded our expectations. The animations and responsiveness were top-notch.",
     name: 'Jael Andrea',
     role: 'Project Manager',
-    initials: 'AC',
+    initials: 'J.A',
     color: 'from-cyan-400 to-teal-400',
   },
   {
     quote:
       "Working with Joel was a fantastic experience. He has a great eye for design and really understands how to create interfaces that users love interacting with.",
-    name: 'Mark Paul',
+    name: 'Mark Shilabula',
     role: 'UX Designer',
-    initials: 'SW',
+    initials: 'M.P',
     color: 'from-purple-400 to-pink-400',
   },
   {
     quote:
       "Jay consistently writes clean, well-structured React and Python code.",
-    name: 'Marcus Chen',
+    name: 'John Ngunyu',
     role: 'Senior Developer',
-    initials: 'MC',
+    initials: 'J.N',
     color: 'from-teal-400 to-blue-400',
   },
 ]

@@ -23,7 +23,7 @@ const projects = [
     image: '/project-ecommerce.png',
     tags: ['React', 'CSS Modules', 'REST API', 'Framer Motion'],
     github: 'https://github.com/Mrjayj123/mnc',
-    live: 'https://loan-tracker-kappa-one.vercel.app/',
+    live: 'https://loan-tracker-roan.vercel.app/',
     featured: true,
   },
 ]
