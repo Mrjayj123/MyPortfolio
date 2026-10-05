@@ -23,8 +23,25 @@ const projects = [
     image: '/project-ecommerce.png',
     tags: ['React', 'CSS Modules', 'REST API', 'Framer Motion'],
     github: 'https://github.com/Mrjayj123/mnc',
-    live: 'https://loan-tracker-roan.vercel.app/',
+    live: 'https://mnc-flame.vercel.app/',
     featured: true,
+  },
+  {
+    title: 'Readerz',
+    description: 'A moddernonline platform where users can read on daily blogs soon to able to read full ebooks of choice.',
+    image: '/project-readerz.png',
+    tags: ['React', 'CSS Modules', 'REST API', 'Framer Motion'],
+    github: 'https://github.com/Mrjayj123/readerz',
+    featured: true,
+  },
+  {
+    title: 'Shuleni School Management System',
+    description: ' A full online school management platform built for the Kenyan education context bringing everything a physical school does into a single web app, without losing quality of instruction',
+    image:'/project-shuleni.png',
+    tags: ['React','Python', 'Javascript','CSS','Rest API'],
+    github: 'https://github.com/Tracymboya-coder/Shuleni-School-Managment-System',
+    live:'https://shuleni-school-managment-system.vercel.app/ ',
+    featured: true
   },
 ]
 
